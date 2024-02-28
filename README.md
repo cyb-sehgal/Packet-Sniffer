@@ -6,7 +6,6 @@ This project provides a simple network sniffer script in Python, utilizing the S
 
 ## Requirements
 - Python 3.x
-- Network adapter (which can support Monitor mode)
 - Scapy library
 ## Installation
 1. Clone the repository :
@@ -35,7 +34,7 @@ Filtering Packets: Modify the filter in sniffer.py to capture specific types of 
 Adding Functionality: Extend the script to perform additional analysis or logging based on captured packets.
 
 ## Usage
-Connect your network adapter to a USB port. Then, run the script:
+Run the script :
 ```bash
 sudo python sniffer.py
 ```
