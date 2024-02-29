@@ -38,7 +38,13 @@ Run the script :
 ```bash
 sudo python sniffer.py
 ```
+## Script Output
+When the script captures a packet, it will display information about the Ethernet and IP layers of the packet. The output will look like this:
+```bash
+Source MAC: xx:xx:xx:xx:xx:xx -> Destination MAC: yy:yy:yy:yy:yy:yy | EtherType: 0x800
+    IP Packet: 192.168.1.100 -> 8.8.8.8
 
+```
 ## That's it! Your network sniffer is now set up and ready to capture and analyze network traffic.
 ## Project Features :
 - Captures Ethernet and IP information of network packets.
